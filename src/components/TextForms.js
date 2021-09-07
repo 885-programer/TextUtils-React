@@ -53,7 +53,7 @@ export default function TextForms(props) {
       <button className="btn btn-primary mx-1"onClick={handleExtraspaces}>DeleteExtraSpace</button>
     </div>
     <div className="container my-3">
-       <h1>Your Text Summary</h1>
+      <h1>Your Text Summary</h1>
 
       <p>{text?.split(" ").filter((element)=>{return element.length!==0})?.length}
       words and {text?.length} characters

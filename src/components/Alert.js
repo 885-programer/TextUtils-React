@@ -16,9 +16,9 @@ import React from "react";
       <strong>{Capitalize(props.alert.types)}</strong>:{props.alert.msg}
       
 
-     
+     </div>
     </div>
-    </div>
+    
    
    
   );
